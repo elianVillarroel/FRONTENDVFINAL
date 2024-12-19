@@ -20,7 +20,7 @@
               "zone.js"
             ],
             "tsConfig": "tsconfig.app.json",
-           "assets": [
+            "assets": [
               "src/favicon.ico",
               "src/assets",
               "src/custom-folder",
@@ -36,6 +36,11 @@
             "scripts": [],
             "server": "src/main.server.ts",
             "prerender": true,
+            "allowedCommonJsDependencies": [
+              "form-data",
+              "proxy-from-env",
+              "follow-redirects"
+            ],
             "ssr": {
               "entry": "server.ts"
             }
@@ -54,7 +59,8 @@
                   "maximumError": "30kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/nombre-del-repositorio/"
             },
             "development": {
               "optimization": false,
