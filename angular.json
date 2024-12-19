@@ -60,7 +60,6 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/"
             },
             "development": {
               "optimization": false,
@@ -106,7 +105,10 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+            "options": {
+              "baseHref": "https://elianvillarroel.github.io/FRONTENDVFINAL/"
+            }
         }
       }
     }
