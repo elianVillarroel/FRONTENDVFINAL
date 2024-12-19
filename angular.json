@@ -60,7 +60,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/nombre-del-repositorio/"
+              "baseHref": "https://github.com/elianVillarroel/FRONTENDVFINAL"
             },
             "development": {
               "optimization": false,
