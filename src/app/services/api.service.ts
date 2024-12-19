@@ -6,7 +6,7 @@ import axios, { AxiosInstance } from 'axios';
 })
 export class ApiService {
   private axiosInstance: AxiosInstance;
-  private baseUrl = 'http://localhost:3000';
+  private baseUrl = 'https://backend-rcxf.onrender.com';
 
   constructor() {
     this.axiosInstance = axios.create({
